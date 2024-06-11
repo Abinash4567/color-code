@@ -1,38 +1,25 @@
-
 {
     "manifest_version": 3,
     "name": "Color code",
     "version": "1.0",
     "description": "color's code picker extension",
     "author": "Abinash4567",
-
-
     "action": {
         "default_popup": "popup.html",
         "default_title": "Color code"
     },
-
-
     "icons": {
         "16": "/images/lid_16.png",
         "32": "/images/lid_32.png",
         "48": "/images/lid_48.png"
     },
-
-
-    /*=================  Service Worker: API to listens to every work in tabs, windows  =================================*/
-
     "background": {
         "service_worker": "background.js"
     },
-
-
     "permissions": [
-        "storage",        //chrome api for storage
-        "activeTab",      //access to tab currently opened
-        "scripting"       //Script in the active tab console
-    ],
-
-    "options_page": "options.html"        //option page when left clicked
-
+        "clipboardWrite",
+        "storage",       
+        "activeTab",   
+        "scripting"      
+    ]
 }
