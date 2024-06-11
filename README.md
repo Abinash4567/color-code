@@ -27,7 +27,6 @@ To install the Chrome extension locally, follow these steps:
    ```sh
    git clone https://github.com/Abinash4567/color-code.git
 2. **Open Chrome and type chrome://extensions/ into the address bar.**
-Press Enter.
 
 4. **Enable Developer Mode:**
    - In the top right corner of the Extensions page, locate the toggle switch for "Developer mode". Toggle the switch to ON.
